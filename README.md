@@ -1,12 +1,11 @@
-# Next.js Raw Boiderplate
-
 [![N|Solid](https://i.imgur.com/VYaKx4o.png)](https://nodesource.com/products/nsolid)
 
 # Next.js Boiderplate
 
 Welcome to the brand new boiderplate for React's framework Next.js, last updated at 03/25/2021. You can learn more about the architecture design, modules used, and the testing patterns in the description below. Feel free to give me any feedbacks in my personal email or in the issues of this repository.
+<br />
 
-### Versions
+## Versions
 
 This boiderplate has many variations for state managment and styling frameworks, you can choose what best suits your project by checking out the different branches and implementations.
 
@@ -23,9 +22,9 @@ This boiderplate has many variations for state managment and styling frameworks,
 | feat/context-sc       | zustand       | styled components | under development |
 | feat/zustand-tailwind | zustand       | tailwind          | under development |
 
-Status for this branches will be updated in the changelog.
+Status for this branches will be updated in the changelog.<br />
 
-### Installation
+## Installation
 
 I recommend you to use the package manager yarn, but you may also use npm.
 
@@ -35,11 +34,13 @@ yarn
 npm install
 ```
 
-## Architecture Patterns
+<br />
 
-OBS: For more information about an specific pattern, checkout the branch and read its README file.
+# Architecture Patterns
 
-### Directory Schema
+OBS: For more information about an specific pattern, checkout the branch and read its README file.<br />
+
+## Directory Schema
 
 This project uses the following directory schema inside the src folder, other files outside the src folder are the default Next.js files.
 
@@ -63,9 +64,9 @@ As a design pattern for code styling, I use the following schema for the creatio
   - ContextName
     - contextname.spec.tsx <-- tests here
     - index.tsx <-- add here
-  - index.tsx <-- export here
+  - index.tsx <-- export here<br />
 
-### State Flow
+## State Flow
 
 This branch uses the React Context for managing the state of the application.
 
@@ -75,15 +76,15 @@ To add a new context to your application, create one following the path style of
   - ContextName
     - contextname.spec.tsx <-- tests here
     - index.tsx <-- add here
-  - index.tsx <-- export here
+  - index.tsx <-- export here<br />
 
-### Style System
+## Style System
 
 This branch uses the Raw Pure CSS as the style framework.
 
-This approach is very straight forward and requires only the basic knowledge of HTML, CSS and the React HTML differences. The main file with the basic CSS Rules can be found under the css directory.
+This approach is very straight forward and requires only the basic knowledge of HTML, CSS and the React HTML differences. The main file with the basic CSS Rules can be found under the css directory.<br />
 
-### Package Commands
+## Package Commands
 
 Below are described all commands available in the package.json file.
 
@@ -98,7 +99,9 @@ yarn test-errors # Runs all spec.tsx and spec.ts test files showing logs.
 yarn test:coverage # Runs the coverage of the tests through the application.
 ```
 
-### Default Port
+<br />
+
+## Default Port
 
 This project uses the default PORT 3000
 
@@ -108,7 +111,9 @@ This project uses the default PORT 3000
 http://localhost:3000
 ```
 
-### Copyright
+<br />
+
+## Copyright
 
 MIT License, Free Software - Boiderplate.
 
