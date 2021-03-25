@@ -22,7 +22,8 @@ This boiderplate has many variations for state managment and styling frameworks,
 | feat/context-sc       | zustand       | styled components | under development |
 | feat/zustand-tailwind | zustand       | tailwind          | under development |
 
-Status for this branches will be updated in the changelog.<br />
+Status for this branches will be updated in the changelog.
+<br />
 
 ## Installation
 
@@ -38,7 +39,8 @@ npm install
 
 # Architecture Patterns
 
-OBS: For more information about an specific pattern, checkout the branch and read its README file.<br />
+OBS: For more information about an specific pattern, checkout the branch and read its README file.
+<br />
 
 ## Directory Schema
 
@@ -64,7 +66,8 @@ As a design pattern for code styling, I use the following schema for the creatio
   - ContextName
     - contextname.spec.tsx <-- tests here
     - index.tsx <-- add here
-  - index.tsx <-- export here<br />
+  - index.tsx <-- export here
+    <br />
 
 ## State Flow
 
@@ -76,13 +79,15 @@ To add a new context to your application, create one following the path style of
   - ContextName
     - contextname.spec.tsx <-- tests here
     - index.tsx <-- add here
-  - index.tsx <-- export here<br />
+  - index.tsx <-- export here
+    <br />
 
 ## Style System
 
 This branch uses the Raw Pure CSS as the style framework.
 
-This approach is very straight forward and requires only the basic knowledge of HTML, CSS and the React HTML differences. The main file with the basic CSS Rules can be found under the css directory.<br />
+This approach is very straight forward and requires only the basic knowledge of HTML, CSS and the React HTML differences. The main file with the basic CSS Rules can be found under the css directory.
+<br />
 
 ## Package Commands
 
