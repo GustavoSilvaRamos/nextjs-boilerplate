@@ -12,14 +12,14 @@ export const MainLayout: React.FC = ({ children }) => {
 
   if (state.isLoading) {
     return (
-      <div className="loading-container">
+      <div className="loading-container" data-testid="loading-container">
         <BeatLoader color="#0D66C4" />
       </div>
     )
   }
 
   return (
-    <div className="main-container">
+    <div className="main-container" data-testid="loaded-container">
       <Header />
       <Sidebar />
       <div className="inner-container">{children}</div>

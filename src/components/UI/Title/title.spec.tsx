@@ -6,7 +6,7 @@ import { cleanup, render, screen, waitFor } from '@testing-library/react'
 // Application Import
 import { Title } from './'
 
-// /** @test {404 Page} */
+// /** @test {Component Title} */
 
 describe('[Component] - Title', () => {
   afterEach(() => {
