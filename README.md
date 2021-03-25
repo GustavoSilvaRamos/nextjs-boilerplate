@@ -4,6 +4,7 @@
 
 Welcome to the brand new boiderplate for React's framework Next.js, last updated at 03/25/2021. You can learn more about the architecture design, modules used, and the testing patterns in the description below. Feel free to give me any feedbacks in my personal email or in the issues of this repository.
 <br />
+<br />
 
 ## Versions
 
@@ -24,6 +25,7 @@ This boiderplate has many variations for state managment and styling frameworks,
 
 Status for this branches will be updated in the changelog.
 <br />
+<br />
 
 ## Installation
 
@@ -40,6 +42,7 @@ npm install
 # Architecture Patterns
 
 OBS: For more information about an specific pattern, checkout the branch and read its README file.
+<br />
 <br />
 
 ## Directory Schema
@@ -67,7 +70,9 @@ As a design pattern for code styling, I use the following schema for the creatio
     - contextname.spec.tsx <-- tests here
     - index.tsx <-- add here
   - index.tsx <-- export here
-    <br />
+
+<br />
+<br />
 
 ## State Flow
 
@@ -80,13 +85,17 @@ To add a new context to your application, create one following the path style of
     - contextname.spec.tsx <-- tests here
     - index.tsx <-- add here
   - index.tsx <-- export here
-    <br />
+
+<br />
+<br />
 
 ## Style System
 
 This branch uses the Raw Pure CSS as the style framework.
 
 This approach is very straight forward and requires only the basic knowledge of HTML, CSS and the React HTML differences. The main file with the basic CSS Rules can be found under the css directory.
+
+<br />
 <br />
 
 ## Package Commands
@@ -105,6 +114,7 @@ yarn test:coverage # Runs the coverage of the tests through the application.
 ```
 
 <br />
+<br />
 
 ## Default Port
 
@@ -116,6 +126,7 @@ This project uses the default PORT 3000
 http://localhost:3000
 ```
 
+<br />
 <br />
 
 ## Copyright
