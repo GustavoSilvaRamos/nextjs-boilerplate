@@ -12,16 +12,16 @@ This boiderplate has many variations for state managment and styling frameworks,
 
 | Branch                | State Manager | Style Framework   | Status            |
 | --------------------- | ------------- | ----------------- | ----------------- |
-| master                | context       | pure css          | ready to use      |
+| master                | context       | tailwind          | ready to use      |
 | feat/redux-pure       | redux-toolkit | pure css          | under development |
 | feat/redux-sc         | redux-toolkit | styled components | under development |
 | feat/redux-tailwind   | redux-toolkit | tailwind          | under development |
 | feat/zustand-pure     | zustand       | pure css          | under development |
 | feat/zustand-sc       | zustand       | styled components | under development |
 | feat/zustand-tailwind | zustand       | tailwind          | under development |
-| feat/context-pure     | zustand       | pure css          | under development |
-| feat/context-sc       | zustand       | styled components | under development |
-| feat/zustand-tailwind | zustand       | tailwind          | under development |
+| feat/context-pure     | context       | pure css          | ready to use      |
+| feat/context-sc       | context       | styled components | under development |
+| feat/context-tailwind | context       | tailwind          | ready to use      |
 
 Status for this branches will be updated in the changelog.
 <br />
