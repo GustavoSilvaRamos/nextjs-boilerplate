@@ -20,7 +20,7 @@ const Sidebar: React.FC = () => {
   }
 
   return (
-    <ul className="sidebar">
+    <ul className="fixed top-20 left-0 w-20 p-4 bg-white inner-height z-50 shadow-sm flex flex-col items-center">
       {sidebarItems.map((route, id) => (
         <NavItem
           {...route}

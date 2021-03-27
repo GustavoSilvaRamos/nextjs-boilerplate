@@ -14,14 +14,17 @@ interface NavItemProps {
 
 export const NavItem: React.FC<NavItemProps> = ({ Icon, pathname, state }) => {
   return (
-    <li
-      className={cs('nav-item', {
-        active: state === NavItemState.active,
-      })}
-    >
+    <li>
       <Link href={pathname}>
-        <a>
-          <Icon className="nav-item-icon" />
+        <a
+          className={cs(
+            'mb-6 w-[40px] h-[40px] text-lg text-gray-800 flex justify-center items-center p-2 rounded-md',
+            {
+              'bg-gray-100': state === NavItemState.active,
+            }
+          )}
+        >
+          <Icon />
         </a>
       </Link>
     </li>

@@ -12,17 +12,20 @@ export const MainLayout: React.FC = ({ children }) => {
 
   if (state.isLoading) {
     return (
-      <div className="loading-container" data-testid="loading-container">
+      <div
+        className="bg-white w-full h-screen flex justify-center items-center"
+        data-testid="loading-container"
+      >
         <BeatLoader color="#0D66C4" />
       </div>
     )
   }
 
   return (
-    <div className="main-container" data-testid="loaded-container">
+    <div data-testid="loaded-container">
       <Header />
       <Sidebar />
-      <div className="inner-container">{children}</div>
+      <div className="p-8 z-30 bg-gray-100 ml-20 mt-20 inner-height">{children}</div>
     </div>
   )
 }
