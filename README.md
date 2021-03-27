@@ -91,9 +91,11 @@ To add a new context to your application, create one following the path style of
 
 ## Style System
 
-This branch uses the Raw Pure CSS as the style framework.
+This branch uses the TailwindCSS framework for styling its components. TailwindCSS is a utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 
-This approach is very straight forward and requires only the basic knowledge of HTML, CSS and the React HTML differences. The main file with the basic CSS Rules can be found under the css directory.
+I highly recommend you to use tailwind in your projects, since it saves you a lot of time on creating components and layouts for your application.
+
+You can learn more about this approach and see all of its features into the [official tailwind website](https://tailwindcss.com)
 
 <br />
 <br />
