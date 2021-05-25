@@ -12,57 +12,73 @@
 /* ------- General ------- */
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('/fonts/proxima-nova-black.otf');
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Black.otf');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('/fonts/proxima-nova-extrabold.otf');
+  font-family: 'Inter';
+  src: url('/fonts/Inter-ExtraBold.otf');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('/fonts/proxima-nova-bold.otf');
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Bold.otf');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('/fonts/proxima-nova-semibold.otf');
+  font-family: 'Inter';
+  src: url('/fonts/Inter-SemiBold.otf');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('/fonts/proxima-nova.otf');
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Regular.otf');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('/fonts/proxima-nova-regular-italic.otf');
-  font-weight: 400;
-  font-style: italic;
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Light.otf');
+  font-weight: 300;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('/fonts/proxima-nova-light.otf');
-  font-weight: 300;
+  font-family: 'Inter';
+  src: url('/fonts/Inter-ExtraLight.otf');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Thin.otf');
+  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
@@ -83,14 +99,27 @@ ol {
   list-style: none;
 }
 
-body {
-  font-family: 'ProximaNova', sans-serif;
+* {
+  font-family: 'Inter', sans-serif;
   box-sizing: border-box;
-  @apply bg-primary-500;
 }
 
 /* Inner Container Component */
 
 .inner-height {
-  min-height: calc(100vh - 5rem);
+  min-height: 100vh;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.layout {
+  z-index: 30;
+  background-color: #faf9f7;
 }

@@ -1,5 +1,1 @@
 export { Header } from './Header'
-export { Sidebar } from './Sidebar'
-export { Title } from './Title'
-export { Caption } from './Caption'
-export { Logo } from './Logo'
