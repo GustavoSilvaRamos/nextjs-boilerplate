@@ -69,17 +69,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url('/img/bg-hero.svg');
+  background-size: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  z-index: 20;
 }
 
-.bg {
-  left: 0;
-  top: 0;
-  z-index: 30;
-  width: 100%;
+.color {
+  background: linear-gradient(314.72deg, #c86dd7 -1.5%, #7e49c3 39.43%, #5912ac 86.02%);
+  background-size: 100%;
+  z-index: 35;
   height: 76vh;
+  z-index: 35;
+  width: 100%;
   position: absolute;
-  background: rgb(62, 6, 121);
-  background: linear-gradient(90deg, rgba(62, 6, 121, 1) 16%, rgba(94, 32, 160, 1) 88%);
+  top: 0;
+  mix-blend-mode: overlay;
 }
 
 .hero .items {
@@ -886,11 +892,21 @@
 
   .hero {
     height: 65vh;
+    background-image: url('/img/bg-hero.svg');
+    background-position: center;
+    background-size: unset;
+    z-index: 20;
   }
-
-  .hero .bg {
+  .color {
+    background: linear-gradient(314.72deg, #c86dd7 -1.5%, #7e49c3 39.43%, #5912ac 86.02%);
+    background-size: 100%;
+    z-index: 35;
     height: 65vh;
-    background-position: cover;
+    z-index: 35;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    mix-blend-mode: overlay;
   }
 
   .hero .items {

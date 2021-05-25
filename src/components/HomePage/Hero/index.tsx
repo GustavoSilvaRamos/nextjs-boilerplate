@@ -1,7 +1,7 @@
 const Hero: React.FC = () => {
   return (
-    <div className="hero">
-      <img className="bg" src="/img/bg-hero.svg" alt="Hero Bg" />
+    <div className="hero ">
+      <div className="color" />
       <div className="items">
         <div className="items-left">
           <h1>Easily create or join a local nanny share with Hapu</h1>
